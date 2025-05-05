@@ -1,0 +1,37 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed; /* Key for parallax */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  background-image: url(earth.jpg);
+}
+
+.section2 {
+  background-image: url(sun1.jpg);
+}
+
+.section3 {
+  background-image: url(galaxy.jpg);
+}
+
+.content {
+  text-align: center;
+  padding: 40px;
+}

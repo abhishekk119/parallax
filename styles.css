@@ -24,7 +24,7 @@ html {
 }
 
 .section2 {
-  background: url(sun1.jpg);
+  background-image: url(sun1.jpg);
 }
 
 .section3 {
